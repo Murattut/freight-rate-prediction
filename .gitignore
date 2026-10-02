@@ -1,0 +1,35 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv/
+
+# Test and local-render artifacts
+.pytest_cache/
+__pycache__/
+tmp/
+
+# Supplied assessment inputs (keep local, do not publish)
+train-test.csv
+validation.csv
+validation-predictions-template.csv
+december-chart-inputs.csv
+
+# Reproducible diagnostics and local scorer output
+backtest_*.csv
+forecast_horizon_metrics.csv
+cold_start_*.csv
+cold_start_*.json
+error_case_audit.csv
+selected_error_diagnostics.json
+run_manifest.json
+scorer_results/
+
+# Assessment documents and local operating-system files
+*.pdf
+.DS_Store

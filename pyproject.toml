@@ -1,0 +1,18 @@
+[project]
+name = "freight-rate-prediction"
+version = "0.1.0"
+description = "Machine learning pipeline for freight rate prediction."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.8,<4",
+    "numpy>=1.26,<3",
+    "pandas>=2.0,<3",
+    "pytest>=8,<9",
+    "reportlab>=4,<5",
+    "scikit-learn>=1.5,<2",
+    "catboost>=1.2,<2",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
